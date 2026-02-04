@@ -51,6 +51,7 @@ The skill implements a **Sequential Analysis Protocol**:
 | Multi-Perspective Critic | Evaluates from Skeptical Expert, Person Who Loses, and Future Self viewpoints |
 | Competitive Threat | Role-plays a capable competitor trying to destroy your approach |
 | Opportunity Cost Analyzer | Forces consideration of what you're giving up |
+| Logical Fallacy Detector | Scans arguments for 40+ named reasoning errors across 6 categories |
 
 ## Example
 
