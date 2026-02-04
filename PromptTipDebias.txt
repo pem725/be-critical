@@ -1,0 +1,794 @@
+Hey there,
+
+Let’s talk about something that’s been bugging me. I see people having these amazing “conversations” with AI where every response is basically “That’s brilliant! Here’s how to make your already-perfect idea even better!”
+
+And I get it. It feels good when AI validates your thinking. But if your AI assistant never pushes back on your ideas, you’re not using it to think sharply. You’re using it to feel better about decisions you’ve already made.
+
+That’s not thinking. That’s just expensive validation.
+
+In this article, you’ll learn:
+
+Why most people accidentally train AI to be a yes-man (and how to break that pattern)
+
+The psychological trap that makes us prefer agreement over insight
+
+A simple framework for turning AI into your most valuable critic
+
+Basic prompts that force real pushback on your ideas
+
+10 battle-tested prompts with detailed examples that make AI challenge your weakest thinking
+
+The Problem: We’re All Building Echo Chambers
+Remember the last time you had a “great idea” at 2am that seemed ridiculous by morning? That’s your brain without a reality check.
+
+Most of us use AI the same way we use that 2am brain. We present our ideas, and the AI goes “Sounds good!” with maybe a few gentle suggestions. It’s like asking your mom if your startup idea is good; she’s gonna say yes because she loves you.
+
+But AI doesn’t love you. It’s just doing what it thinks you want, which is usually agreement. And we train it to do this without realizing it. Every time we get a challenging response and then rephrase our question to get a softer answer, we’re teaching it to be nicer. Less critical. More useless.
+
+The result is that your “thinking partner” becomes a validation machine. You end up making the same mistakes, just with fancier language backing them up.
+
+The Framework: Adversarial Prompting
+Here’s what I’ve learned after months of trying to get AI to actually challenge me: you have to explicitly ask for disagreement. And not just “play devil’s advocate” because that phrase is so overused that AI just gives you token pushback.
+
+You need to structure your prompts to make disagreement the main job, not a side task.
+
+Think of it like this. When you hire a consultant, you don’t want someone who just agrees with everything you say. You want someone who’ll tell you when you’re about to walk off a cliff. Same deal with AI, except you have to write the job description yourself.
+
+The basic structure looks like this:
+
+Your idea/belief + Explicit challenge request + Permission to be uncomfortable
+
+That last part matters more than you’d think. AI is trained to be helpful and harmless, which often means “nice.” You have to give it permission to stop being nice.
+
+Three Starter Prompts
+Let me give you a few basic prompts that work right out of the box. These aren’t the full detailed versions (those are coming…) but they’ll show you what I mean.
+
+The Basic Devil’s Advocate
+“I’m planning to [your decision]. Before I move forward, I need you to argue against this as strongly as possible. Don’t hold back on pointing out flaws.”
+
+Simple, right? But notice what’s different from just saying “play devil’s advocate.” You’re asking for strength in the argument and explicitly saying don’t hold back. That matters.
+
+The Assumption Breaker
+“Here’s what I believe about [topic]. What assumptions am I making that might be completely wrong? Challenge the foundations of my thinking, not just the surface details.”
+
+This one works because you’re asking it to go deeper than surface-level critique. Most AI responses will tweak your plan, this asks it to question whether the whole plan makes sense.
+
+The Premortem
+“Imagine my idea failed spectacularly. Tell me the 3-5 most likely reasons why, and be specific about what went wrong.”
+
+Working backwards from failure is powerful because it bypasses your natural defensiveness. It’s not saying “this will fail,” it’s saying “if it failed, here’s how.” Much easier to hear.
+
+A Real Example
+Let me show you how this plays out. I was working on a content strategy where I’d post daily on three platforms. Seemed solid. Lots of reach, consistent presence, all that.
+
+I used this prompt: “I’m planning to post original content daily on Twitter, LinkedIn, and Substack. Argue against this strategy like you’re a marketing consultant who thinks I’m making an expensive mistake.”
+
+The response tore apart my plan. Not gently, not with “here are some considerations” but with actual arguments. Pointed out I’d burn out in two weeks. Showed me the math on engagement rates versus time invested. Asked why I thought I needed to be on all three platforms when my audience probably concentrated on one.
+
+Was I happy about this? Not really. Did it save me from a stupid decision? Absolutely.
+
+I ended up focusing on one platform with occasional repurposed content on the others. Way more sustainable, and the results were actually better.
+
+Common Mistakes When Asking for Pushback
+Mistake #1: Being Too Vague
+
+“Challenge my idea” doesn’t work. AI needs to know what kind of challenge you want. Are you looking for logical flaws? Practical problems? Alternative perspectives? Be specific about the type of critique you need.
+
+Mistake #2: Adding Softeners
+
+“If you think there might be some potential issues...” Stop. You’re already giving AI permission to be gentle. Skip the softeners and ask directly for the problems.
+
+Mistake #3: Defending Your Idea in the Prompt
+
+“I think X is good because of Y and Z, but what do you think?” You’ve already framed it positively. AI will work within that frame. Present your idea neutrally or even negatively if you want real critique.
+
+Why This Matters More Than You Think
+Look, I know this feels uncomfortable. Nobody wants to hear their ideas criticized, even by an algorithm. But here’s what I’ve noticed: the conversations where AI pushes back are the ones that actually change how I think.
+
+And the validation conversations? I forget them immediately.
+
+The ones where I get genuinely challenged? Those stick with me. They surface blind spots I didn’t know I had. They force me to defend my thinking or admit when I can’t.
+
+That’s the difference between using AI as a mirror and using it as a tool for actual thinking.
+
+Ready to go deeper? This next section includes 10 detailed prompts with complete frameworks, real examples, and customization guidelines that force AI to become your toughest critic.
+
+You’ll get:
+
+Detailed adversarial prompts for business decisions, creative work and personal choices
+
+Specific examples of input/output for each prompt type
+
+Customization guidelines so you can adapt each prompt to your situation
+
+Advanced techniques for multi-turn critical conversations
+
+Expert troubleshooting for when AI still won’t push back hard enough
+
+Let’s turn your AI into the critic you actually need.
+
+The 10 Prompts
+Advanced Strategy Overview
+The prompts below use what I call “role-forcing language” – you’re not asking AI to play a role, you’re defining the constraints that make disagreement the primary output. Each prompt has been tested across multiple AI platforms (ChatGPT, Claude, Gemini) and refined based on what actually produces substantive critique.
+
+The key is specificity. Vague requests get vague pushback. These prompts force AI into a corner where the only way to fulfill the request is to genuinely challenge you.
+
+Prompt #1: The Steelman Opponent
+Purpose: Forces AI to build the absolute strongest case against your position, stronger than any real opponent would make.
+
+Complete Prompt:
+
+“I believe [your position/decision/idea]. Your job is to argue against this position by building the single strongest counterargument possible – a “steelman” version that takes the opposing view at its very best.
+
+Don’t just poke holes in my thinking. Build a complete, compelling case for why I’m wrong. Include:
+
+The strongest evidence against my position
+
+The best logical argument for the opposite conclusion
+
+Why smart, informed people would disagree with me
+
+What I might be missing or ignoring
+
+Make this argument so good that I actually feel uncertain about my original position.”
+
+Usage Instructions:
+
+Insert your specific belief or decision in the first sentence
+
+Use this when you’ve already decided something and need to stress-test it
+
+Read the response twice – once to understand it, once to genuinely consider if you’re wrong
+
+If you’re not uncomfortable after reading, your prompt wasn’t specific enough
+
+Example Input:
+
+“I believe that solopreneurs should focus exclusively on one platform (Twitter) rather than spreading across multiple social media platforms. Your job is to argue against this position by building the single strongest counterargument possible...”
+
+Example Output Elements:
+
+The AI should return something like: “Here’s why your single-platform strategy is actually a dangerous oversimplification that could cost you years of growth...
+
+Platform dependence is the solopreneur’s biggest unrecognized risk. You’re essentially building your entire business on rented land. If Twitter changes its algorithm tomorrow, implements hostile monetization policies or simply declines in relevance, you lose everything overnight. No backup, no alternative audience, no safety net.
+
+The argument for multi-platform isn’t about ‘being everywhere’ – it’s about strategic redundancy. Consider Creator X, who built 200K followers on Twitter over three years. Platform changes tanked their reach by 80% in one algorithm update. They had no email list, no presence elsewhere. Their business nearly collapsed.
+
+Meanwhile, Creator Y, with ‘only’ 50K on Twitter but also 30K on LinkedIn and a 10K email list, survived multiple platform shifts. When Twitter engagement dropped, LinkedIn picked up the slack. The email list provided direct access that no platform could take away...”
+
+Customization Guidelines:
+
+For business decisions: Ask for market evidence and case studies
+
+For creative choices: Request aesthetic and audience perspective critiques
+
+For personal decisions: Include emotional and long-term consequence analysis
+
+Add “cite specific examples” if you want concrete cases, not just theory
+
+AI Prompt Hackers shares prompts, actionable tips, and proven tactics to help you harness AI for profit
+
+pem725@gmail.com
+password
+pem725@gmail.com
+Subscribe
+Prompt #2: The Blind Spot Finder
+Purpose: Identifies assumptions and gaps in your thinking that you’re too close to see.
+
+Complete Prompt:
+
+“I’m working on [describe your project/idea/strategy]. I need you to analyze this for blind spots – things I’m not seeing because I’m too close to it.
+
+Specifically identify:
+
+Assumptions I’m making that I haven’t stated (or maybe don’t even realize I’m making)
+
+What I’m optimizing for at the expense of something else
+
+Second and third-order consequences I probably haven’t considered
+
+What someone who failed at something similar would tell me
+
+Don’t tell me what I’m doing right. Only focus on what I’m missing, assuming incorrectly, or failing to account for.”
+
+Usage Instructions:
+
+Describe your project with reasonable detail but don’t over-explain
+
+Works best when you feel confident about your approach (that confidence is the blind spot)
+
+Take notes on every assumption the AI surfaces, even ones that seem obvious
+
+Follow up on any assumption you want to defend – that’s probably your biggest blind spot
+
+Example Input:
+
+“I’m working on launching a newsletter about AI productivity tools. My plan is to publish twice weekly with tool reviews and tutorials. I’ll monetize through affiliate links and eventually a paid tier. I need you to analyze this for blind spots...”
+
+Example Output Elements:
+
+“Let’s start with your unstated assumptions because those are doing most of the heavy lifting in your plan:
+
+Assumption #1: You’re assuming people want more AI tool reviews. But the market is already saturated with AI newsletters. What you haven’t considered is whether your audience’s problem is actually ‘not enough tool information’ or if it’s ‘too much information and no clear signal.’ You might be adding to the noise problem you think you’re solving.
+
+Assumption #2: Twice weekly implies you believe consistency and frequency drive growth. But you’re optimizing for volume at the potential expense of depth and quality. What if one exceptional monthly deep-dive would build more authority than eight mediocre reviews?
+
+Assumption #3: Affiliate monetization assumes your audience will buy tools based on your recommendation. But you haven’t mentioned building trust first or why readers would trust your judgment over the dozens of other AI newsletters making similar recommendations...”
+
+Customization Guidelines:
+
+Add your timeline if time-based assumptions might be wrong
+
+Include your resource constraints if you want budget/capacity reality checks
+
+Specify your experience level so AI can identify knowledge gaps
+
+Request industry-specific blind spots if working in a specialized field
+
+Prompt #3: The Premortem Autopsy
+Purpose: Works backward from failure to identify what would actually kill your project.
+
+Complete Prompt:
+
+“It’s [timeframe] from now. My [project/idea/business] has completely failed. Not just underperformed – actually failed in a way that I had to shut it down or abandon it.
+
+As someone analyzing this failure after the fact, tell me:
+
+The 3-5 most likely causes of this failure (in order of likelihood)
+
+What the warning signs were that I probably ignored
+
+The specific moment or decision where things went irreversibly wrong
+
+What I should have done differently in the first 30 days
+
+Be specific and realistic. Don’t give me generic failure reasons like ‘lack of execution.’ Tell me exactly what probably went wrong and how.”
+
+Usage Instructions:
+
+Choose a realistic timeframe (6 months for small projects, 1-2 years for bigger ones)
+
+Don’t interrupt with defenses – let AI complete the full autopsy
+
+The failures that make you most uncomfortable are the most likely ones
+
+Immediately create contingency plans for the top 2 failure modes
+
+Example Input:
+
+“It’s 6 months from now. My coaching business, focused on helping mid-career professionals transition into tech, has completely failed. As someone analyzing this failure after the fact, tell me...”
+
+Example Output Elements:
+
+“Looking at your coaching business failure, here’s what most likely happened:
+
+Primary Cause of Failure (70% likely): You didn’t validate real market demand before building the offer. You assumed mid-career professionals wanted to transition into tech, but the actual market was either: (a) people who couldn’t afford coaching, or (b) people who didn’t believe they needed coaching. You spent months building a program for a customer that didn’t exist at your price point.
+
+The warning signs you ignored: Your discovery calls in Month 1-2 probably had a pattern – people were interested but not buying. You told yourself it was a sales skills problem or a ‘not right now’ situation. It wasn’t. It was a fundamental product-market fit problem.
+
+Secondary Cause (50% likely): You competed on the same dimension as everyone else (getting people tech jobs) instead of differentiating on the real problem (confidence and career clarity). Your messaging looked identical to 47 other career coaches, so you became a commodity.
+
+The irreversible moment: Month 3, when you launched your group program instead of doing one-on-one work first. You needed proof of concept with real transformations. Instead you optimized for scale before you had product-market fit...”
+
+Customization Guidelines:
+
+Make the timeframe match your project’s natural lifecycle
+
+Ask for “warning signs I’ll probably rationalize away” if you tend to be optimistic
+
+Request specific numbers if you want quantitative failure metrics
+
+Add your personality type for personalized failure modes (perfectionists fail differently than impulsive people)
+
+Prompt #4: The Socratic Interrogator
+Purpose: Uses questions instead of arguments to expose flaws in your reasoning.
+
+Complete Prompt:
+
+“I want to think through [your idea/decision]. But instead of giving me advice, I need you to ask me increasingly difficult questions that expose weaknesses in my thinking.
+
+Rules:
+
+Only ask questions, don’t provide answers or suggestions
+
+Each question should build on my previous answer
+
+Make the questions progressively harder
+
+If I give a vague answer, ask me to be more specific
+
+If I contradict myself, point it out as a question
+
+Continue until you’ve asked at least 10 questions or until I admit I don’t know
+
+Start with: ‘What problem are you actually trying to solve?’”
+
+Usage Instructions:
+
+Answer every question honestly, even when it’s uncomfortable
+
+If you find yourself getting defensive, that question hit a real weakness
+
+Don’t look up answers between questions – use only what you already know
+
+When you can’t answer a question, that’s your research priority
+
+Example Input:
+
+“I want to think through my decision to quit my job and go full-time on my side project. But instead of giving me advice, I need you to ask me increasingly difficult questions...”
+
+Example Output Elements:
+
+“Let’s explore this decision through questions:
+
+What problem are you actually trying to solve by quitting your job?”
+
+[User responds: “I want more freedom and to work on something I’m passionate about”]
+
+“When you say ‘freedom,’ what specifically do you mean? Freedom from what, exactly?”
+
+[User responds: “Freedom from a 9-5 schedule and corporate bureaucracy”]
+
+“If you keep your job but negotiate remote work and flexible hours, does that solve the freedom problem? If not, why not?”
+
+[User responds: “I guess it would solve part of it, but I also want to build something of my own”]
+
+“What evidence do you have that your side project can replace your income within your runway period?”
+
+[User responds: “I’ve been making $2K/month for the past 3 months”]
+
+“Your monthly expenses are what? And how many months of savings do you have?”
+
+[User responds: “About $4K/month expenses, 6 months savings”]
+
+“So you need to triple your revenue in 6 months to avoid going into debt. What’s your plan to 3x revenue, and have you ever 3x’d anything before?
+
+Customization Guidelines:
+
+Set a question limit (10-15 works well) if you want a focused session
+
+Ask for “uncomfortable questions only” if AI is being too gentle
+
+Request questions from a specific perspective (investor, spouse, future self)
+
+Add “keep asking even if I get frustrated” if you know you’ll want to bail early
+
+Prompt #5: The Multi-Perspective Critic
+Purpose: Evaluates your idea from multiple critical viewpoints simultaneously.
+
+Complete Prompt:
+
+“Evaluate my [idea/project/decision] from three different critical perspectives:
+
+The Skeptical Expert: Someone with 20 years in this field who’s seen countless similar attempts fail. What would they say is naive or overlooked in my approach?
+
+The Person Who Loses: Who might be negatively affected if I succeed? What would their genuine objections be?
+
+My Future Self (5 years out): Looking back, what would I wish I’d known or done differently before starting?
+
+For each perspective, be specific. No diplomatic both-sides language. Each critic should genuinely try to stop me or significantly change my approach.”
+
+Usage Instructions:
+
+Choose critics relevant to your specific situation
+
+The “person who loses” is crucial – we often ignore stakeholder downsides
+
+Read each perspective separately, take notes before moving to the next
+
+If all three perspectives say similar things, that’s your biggest risk
+
+Example Input:
+
+“Evaluate my plan to switch from selling courses to selling high-ticket consulting from three different critical perspectives...”
+
+Example Output Elements:
+
+“The Skeptical Expert (Seasoned Business Consultant):
+
+Here’s what someone who’s watched hundreds of course creators try this transition would tell you: You’re romanticizing 1-on-1 work because you’re burned out on volume, not because consulting is actually a better business model for you.
+
+High-ticket consulting sounds appealing—fewer clients, higher prices, more ‘meaningful’ work. But you’re ignoring the reality that consulting doesn’t scale and has a hard ceiling. You’ve built systems for leveraged income. You’re about to trade that for trading time for money at a higher rate.
+
+Also, your course has market validation. Your consulting offer doesn’t. You’re abandoning proven product-market fit to start from scratch in a more competitive, relationship-dependent business...”
+
+Customization Guidelines:
+
+Replace “Skeptical Expert” with the actual expert type relevant to you
+
+Change “Person Who Loses” based on your situation (current customers, competitors, partners)
+
+Adjust the future timeframe based on your decision’s impact horizon
+
+Add a fourth perspective if you have a specific stakeholder to consider
+
+Prompt #6: The Confirmation Bias Detector
+Purpose: Analyzes your recent thinking for signs you’re only seeking validation.
+
+Complete Prompt:
+
+“Review my description of [situation/problem/opportunity] below. Then analyze it for confirmation bias.
+
+Specifically tell me:
+
+What conclusion do I seem to want to reach? (based on how I’ve framed things)
+
+What information or perspectives am I conveniently leaving out?
+
+How am I framing the situation to make my preferred option look best?
+
+What questions should I be asking that I’m avoiding?
+
+If you had to guess, what am I afraid of discovering?
+
+[Insert your description of the situation]
+
+Don’t soften this. If I’m fooling myself, tell me directly.”
+
+Usage Instructions:
+
+Write your initial situation description naturally – don’t try to sound balanced
+
+The way you naturally describe it reveals your bias
+
+Pay special attention to the “afraid of discovering” answer – that’s usually accurate
+
+If the response feels unfair, read it again in 24 hours
+
+Example Input:
+
+“Review my description below and analyze it for confirmation bias:
+
+I’ve been working on my newsletter for 8 months and growth has been slower than expected. I’m considering pivoting to video content because everyone says video is the future and text content is dying. I’ve seen other creators blow up on YouTube and I think I could do the same thing...”
+
+Example Output Elements:
+
+“Let’s examine what you’re really doing here:
+
+The Conclusion You Want to Reach: Video is the answer to your slow growth, and switching formats will solve your problem.
+
+What You’re Leaving Out: Why your newsletter growth is actually slow. Is it the format (text) or is it the topic, positioning, promotion strategy, or content quality? You haven’t mentioned testing different approaches within newsletters. You’re jumping to a format change without diagnosing the real problem.
+
+Also missing: Your actual strengths. You’ve built an 8-month newsletter, which means you can write consistently. Can you produce video consistently? That’s a very different skill set. You’re assuming format is the only variable.
+
+How You’re Framing This: ‘Everyone says video is the future’ and ‘text content is dying’ are both convenient overgeneralizations. You’re framing this as inevitable evolution rather than a strategic choice. You’re also cherry-picking successful video creators while ignoring the thousands who fail or the successful newsletter writers.
+
+Questions You’re Avoiding:
+
+What specifically isn’t working in my newsletter?
+
+Have I actually tried promoting it effectively?
+
+Do I want to make videos or do I want an excuse to start over?
+
+Am I comparing my 8-month newsletter to creators with 3+ years of video work?
+
+What You’re Afraid of Discovering: That the format isn’t the problem. That you’d have to do the hard work of improving your current content, building an audience slowly, or admitting that your topic or approach needs refinement. Video feels like a fresh start where the pressure is off...”
+
+Customization Guidelines:
+
+Include the actual situation description you wrote naturally
+
+Request analysis of a specific decision timeframe if you’ve been circling this for weeks
+
+Ask “what story am I telling myself?” if you want narrative analysis
+
+Add recent research or opinions you’ve gathered if you want to see how you’re cherry-picking
+
+Prompt #7: The Reality Check
+Purpose: Gets honest feedback as if from a friend who cares but thinks you’re rationalizing.
+
+Complete Prompt:
+
+“I need you to be the friend who loves me but isn’t afraid to tell me I’m full of shit.
+
+Here’s what I’m telling myself about [situation]: [Your rationalization/explanation/justification]
+
+Now respond the way a truly honest friend would – someone who:
+
+Knows me well enough to spot when I’m lying to myself
+
+Cares more about my success than my feelings
+
+Has seen me do this before and knows my patterns
+
+Won’t let me off the hook with vague promises to ‘work on it’
+
+Call out the rationalizations. Point out the patterns. Tell me what I actually need to hear, not what I want to hear.”
+
+Usage Instructions:
+
+Write out your full rationalization – everything you’ve been telling yourself
+
+This works best for recurring patterns (career, relationships, habits, business)
+
+The response will sting. That means it’s working.
+
+Share the response with an actual friend who knows you. They’ll probably agree.
+
+Example Input:
+
+“I need you to be the friend who loves me but isn’t afraid to tell me I’m full of shit.
+
+Here’s what I’m telling myself: I’m not starting my business because I need to do more research first. The market is complicated and I want to make sure I really understand it before I launch anything. I’m being strategic and thoughtful, not afraid. Once I finish this research phase, I’ll be much better positioned to succeed...”
+
+Example Output Elements:
+
+“Okay, here’s what I’m actually seeing:
+
+You’re not doing research. You’re hiding behind research. There’s a difference, and you know it.
+
+This is the same pattern I watched you run with the podcast (9 months of ‘planning’), the course (rewrote the outline six times), and that book you were going to write. You collect information like it’s going to protect you from failure. It won’t.
+
+‘The market is complicated’ – every market is complicated. That’s not stopping thousands of less informed people from launching businesses in your space right now. Some of them are succeeding. The difference isn’t how much they researched. It’s that they actually started.
+
+‘Once I finish this research phase’ – you’re never finishing it because there’s always more to learn. That’s the whole trap. You’ve moved the finish line five times in this conversation alone.
+
+Here’s what you actually need to hear: You’re afraid of failing publicly. That’s fine, everyone is. But call it what it is. You’re not being strategic, you’re being scared. And you’re using intellectual rigor as a costume for fear.
+
+The business you’d launch today would probably fail. So would the one you launch in six months. The difference is, if you launch today, you’ll get six months of real market feedback while future-you is still Googling best practices...”
+
+Customization Guidelines:
+
+Include your specific pattern if you know it (”I always do this with...”)
+
+Mention your go-to rationalization phrases if you’re aware of them
+
+Add context about how long you’ve been in “research mode”
+
+Reference specific past examples where you’ve done this before
+
+Prompt #8: The Competitive Threat
+Purpose: Analyzes your strategy from a competitor’s perspective who wants to destroy you.
+
+Complete Prompt:
+
+“Imagine you’re my most capable competitor. You have similar resources and you’re specifically trying to make my [business/product/strategy] fail.
+
+Tell me:
+
+What’s the weakest part of my strategy that you’d attack?
+
+What would you do to make my approach obsolete or irrelevant?
+
+What am I depending on that you could disrupt?
+
+If you wanted to steal my customers, what would you offer that I can’t?
+
+What am I doing that actually makes your job easier?
+
+Think like someone who studies my every move and is actively planning to beat me. Be ruthless.”
+
+Usage Instructions:
+
+Describe your current strategy with enough detail for analysis
+
+This is especially valuable before a launch or major investment
+
+Whatever scares you most in the response, plan for it specifically
+
+If nothing in the response worries you, you weren’t specific enough
+
+Example Input:
+
+“Imagine you’re my most capable competitor in the email marketing consulting space. You’re specifically trying to make my business fail. My approach is to work primarily with e-commerce brands on abandoned cart sequences and welcome series optimization...”
+
+Example Output Elements:
+
+“As your competitor actively trying to destroy your business, here’s exactly what I’d do:
+
+Your Weakest Point: You’re selling implementation (cart sequences, welcome series) when you should be selling outcomes (revenue, retention rates). That’s a tactical services business, not strategic partnership. I’d position myself as a growth partner who happens to use email, while you’re just the email person.
+
+Making You Obsolete: I’d build the exact same sequences you offer as templates and give them away free. Then I’d charge only for the strategic layer – customer segmentation, lifecycle planning, conversion optimization across channels. You’d be competing on implementation while I’m competing on strategy. Guess who wins that value perception battle?
+
+What You Depend On That I’d Disrupt: You need time-intensive client projects to make money. I’d create a productized service that delivers 80% of your results at 40% of your price in half the time. Not because it’s better, but because most e-commerce brands care more about speed and cost than the incremental improvement from custom work.
+
+Stealing Your Customers: I’d offer the same technical deliverables plus dashboard reporting and A/B testing capabilities. I’d also bundle email with SMS and retargeting so I own more of their marketing stack. You’re a point solution. I’d become the platform...”
+
+Customization Guidelines:
+
+Specify your exact niche and strategy so the competition is realistic
+
+Add your pricing model if you want pricing-based attacks
+
+Include your unique advantage so AI can identify how to neutralize it
+
+Request tech-specific or market-specific competitive threats if relevant
+
+Prompt #9: The Opportunity Cost Analyzer
+Purpose: Forces consideration of what you’re giving up by pursuing this path.
+
+Complete Prompt:
+
+“I’m planning to invest [time/money/energy] into [your project/decision]. Instead of telling me whether this is a good idea, tell me what I’m NOT doing by making this choice.
+
+Specifically:
+
+What other opportunities am I closing off or delaying?
+
+What relationships or skills will atrophy while I focus on this?
+
+If this takes 2X longer than I expect (it usually does), what’s the real cost?
+
+What would I do with these same resources if this option didn’t exist?
+
+Five years from now, what might I regret about this allocation of time/money/energy?
+
+Focus only on what I’m giving up, not what I’m gaining. I already know what I might gain.”
+
+Usage Instructions:
+
+Be specific about the time and resource commitment
+
+This prompt is hard to read because it highlights loss, not potential
+
+If you can’t articulate what you’re giving up, you don’t understand the trade-off
+
+The best use: before committing to multi-month or multi-year projects
+
+Example Input:
+
+“I’m planning to invest the next 12 months and roughly $30K into building a SaaS product for freelance writers. Instead of telling me whether this is a good idea, tell me what I’m NOT doing by making this choice...”
+
+Example Output Elements:
+
+“Let’s talk about what this decision costs you beyond money:
+
+Opportunities You’re Closing Off: You can’t pivot to consulting or coaching for the next year because you’ll be in building mode. If you discovered in Month 3 that writers would pay you $10K/month for done-for-you services right now, you couldn’t pursue it. You’re locked into the SaaS track whether or not the market responds.
+
+You’re also closing off any projects that require significant mental bandwidth. Building a SaaS is cognitively expensive. That novel you’ve been thinking about? Not happening. That podcast you wanted to start? Also not happening. You’re choosing code over content.
+
+Skills and Relationships That Atrophy: You won’t be doing client work, which means your tactical skills get rusty and your client relationships cool. In 12 months, if the SaaS fails, you’d need to rebuild your service business from scratch. Some of your best referral sources will have forgotten about you.
+
+You’re also choosing technical problem-solving over people problems for a year. That affects how you think and what you’re good at.
+
+If This Takes 2X Longer (24 months): $60K out of pocket plus two years of foregone income from your other skills. If you currently make $80K/year consulting, your real cost is $220K over 24 months. That’s a house down payment. That’s two years of retirement savings. That’s MBA-level tuition.
+
+What You’d Do If This Didn’t Exist: You’d probably build your consulting business to $200K+/year doing work you already know how to do. Or you’d write the book that positions you as an expert. Or you’d create a coaching program with much faster payback...
+
+Five-Year Regret Potential: If the SaaS fails (which most do), you’ll regret the opportunity cost of not building something with faster validation and monetization. You’ll regret choosing the impressive-sounding path (SaaS founder!) over the profitable path. You might especially regret it if you have to go back to a job because you burned through savings...”
+
+Customization Guidelines:
+
+Include your current income so AI can calculate real opportunity cost
+
+Mention alternative options you’re considering for better comparison
+
+Add life stage context (single vs family, early career vs late career)
+
+Request specific skill atrophy analysis if you’re worried about losing edge
+
+Prompt #10: The Red Team Exercise
+Purpose: Simulates an adversarial review designed to find every possible failure point.
+
+Complete Prompt:
+
+“You’re leading a ‘red team’ exercise where your only job is to break my plan and identify every possible failure point.
+
+Here’s my plan: [Detailed description of your plan/project/strategy]
+
+Conduct a systematic attack:
+
+Technical/Operational Failures: What will break, not work as expected, or fail to scale?
+
+Market/Competitive Failures: Why might the market not care or competitors crush this?
+
+Human/Team Failures: Where will people (including me) fail or let this down?
+
+Financial Failures: What are the hidden costs and revenue shortfalls I’m not modeling?
+
+Timing Failures: How is my timing wrong or vulnerable to external events?
+
+For each category, give me 2-3 specific, realistic failure scenarios. Don’t tell me how to fix them. Just identify where the plan is vulnerable.”
+
+Usage Instructions:
+
+Provide detailed plan description including timelines and assumptions
+
+This is intense – expect 10-15 potential failure points
+
+Don’t defend or rationalize any of them. Just document.
+
+After 24 hours, review list and build contingencies for the most likely 3-5 failures
+
+Example Input:
+
+“You’re leading a red team exercise on my plan to launch a membership community for marketing freelancers with these details: $49/month, launching in 3 months, target 200 members in year one, includes weekly training and peer networking...”
+
+Example Output Elements:
+
+“Red Team Analysis – Plan to Break Your Membership Community:
+
+TECHNICAL/OPERATIONAL FAILURES:
+
+Platform Chaos (High Probability): You’re planning to build community + deliver training + handle payments across multiple platforms. Within 60 days, you’ll be spending 10 hours/week just on tech support and platform management. Members will get frustrated with fractured experience (Slack for community, Zoom for calls, Kajabi for content, Stripe for payments). Churn will spike because the friction isn’t worth $49/month.
+
+Content Production Collapse (High Probability): Weekly training means 52 pieces of content per year. You’re estimating 2-3 hours per training. Real number is closer to 6-8 hours when you include planning, recording, editing, and dealing with tech issues. By month 4, you’ll either burn out or start delivering low-quality content. Members notice immediately.
+
+MARKET/COMPETITIVE FAILURES:
+
+Generic Positioning in Crowded Space (High Probability): Marketing freelancer communities already exist at every price point. You haven’t articulated why someone would switch from free Facebook groups or $20/month alternatives. “Weekly training and peer networking” describes 47 other communities. Within 90 days you’ll realize you’re competing on price in a race to the bottom.
+
+Wrong Target Member (Medium Probability): Freelancers struggling enough to need community support often can’t afford ongoing subscriptions. Successful freelancers don’t have time for weekly training. You’re targeting the middle – people successful enough to pay but needing enough support to engage. That’s a smaller segment than you think.
+
+HUMAN/TEAM FAILURES:
+
+Founder Burnout (Critical Risk): You’re planning to be the sole trainer, community manager, tech support, and sales/marketing. At 200 members, you’ll have roughly 50-75 active ones who expect personal attention. That’s unsustainable as a solo operation. By month 6-8, you’ll hate what you built.
+
+Member Engagement Death Spiral (High Probability): Initial members will engage. But as community grows, engagement per member drops. Quiet members see low activity and leave. Active members get frustrated by lack of participation. You end up with ghost town where 10% of members create all activity and everyone else is just lurking, questioning whether it’s worth $49/month...
+
+FINANCIAL FAILURES:
+
+Hidden Cost Explosion: $49/month with 70% margin assumes low costs. Reality: platform fees ($500-800/month at scale), payment processing (3%), customer acquisition cost (likely $100-300 per member for cold traffic), content creation tools, email service. Your actual margin is probably 40-50%, not 70%.
+
+Churn Rate Underestimation: You’re probably modeling 5-10% monthly churn. Reality for membership communities is 10-15% especially in first 90 days. At 15% churn, you need 30 new members monthly just to stay flat at 200. That’s 360 total member acquisitions to maintain 200 active, not the 200 you’re planning for.
+
+TIMING FAILURES:
+
+Three Month Launch is Fantasy: Building community platform + creating initial content library + setting up payment systems + marketing website + email sequences + beta testing = 200-300 hours of work minimum. At 20 hours/week (while doing your regular work), that’s 10-15 weeks for setup alone. Then you need lead time for launch marketing. Real timeline is 5-6 months, and you’ll be stressed the entire time...”
+
+Customization Guidelines:
+
+Provide detailed plan with numbers, timelines, and assumptions for thorough analysis
+
+Specify your resource constraints (solo, small team, budget limitations)
+
+Request industry-specific failure modes if working in specialized market
+
+Add “rank by likelihood” if you want prioritized failure scenarios
+
+Tips for Better Critical Feedback
+Tip #1: Stack Prompts for Deeper Critique
+Don’t stop at one prompt. Use multiple in sequence:
+
+Start with Blind Spot Finder to surface assumptions
+
+Follow with Steelman Opponent on the biggest assumption
+
+End with a Premortem on the completely revised plan
+
+Each layer reveals issues the previous prompt missed.
+
+Tip #2: Use Specific Constraints to Force Harder Pushback
+Generic: “Challenge my idea”
+Specific: “Challenge my idea as if you’re an investor who just lost money on three similar companies.”
+
+The more specific the perspective, the sharper the critique.
+
+Tip #3: Don’t Defend During the Critique
+Your instinct will be to argue with the AI’s points. Resist this. Let it finish the complete critique, take notes, then revisit with fresh eyes 24 hours later. Most critiques become more valid with time, not less.
+
+Tip #4: Watch for Softening Language
+If AI uses phrases like “you might want to consider” or “one thing to think about,” you didn’t ask hard enough. Go back and add “be direct” or “no diplomatic language” to your prompt.
+
+Tip #5: The Discomfort Test
+If reading the response doesn’t make you uncomfortable, it wasn’t critical enough. Real critique should make you feel defensive. That’s how you know you hit actual blind spots instead of obvious surface issues.
+
+Tip #6: Create a “Criticism Protocol”
+Use the same 2-3 prompts for every major decision. This creates consistency and helps you spot patterns across your decisions. I use Blind Spot Finder + Premortem + Reality Check for everything above $5K or 40 hours invested.
+
+Quick Reference: When to Use Which Prompt
+Early stage ideation: Blind Spot Finder, Multi-Perspective Critic
+Before committing resources: Premortem, Opportunity Cost Analyzer
+When you feel confident: Reality Check, Confirmation Bias Detector
+Before competition/launch: Competitive Threat, Red Team Exercise
+When you’ve already decided: Steelman Opponent, Socratic Interrogator
+
+Follow-Up Prompt Template
+After receiving critical feedback:
+
+“Thanks for that critique. Now I want to go deeper on [specific point that made you most uncomfortable]. Assume I’m wrong about this and build the case for why, with specific examples.”
+
+Monthly Review Prompt
+“Review my last 30 days of decisions and identify any patterns of rationalization, avoidance, or confirmation bias you see. What am I consistently not seeing about myself?”
+
+Final Thought
+These prompts work because they remove AI’s default behavior (being helpful and agreeable) and replace it with a directive to challenge you. But here’s the thing nobody talks about: you have to actually want to be challenged.
+
+If you’re using these prompts to feel like you did due diligence before doing what you already decided... you’re missing the point.
+
+The goal isn’t to collect critiques. It’s to change your mind.
+
+Use these prompts when you’re genuinely open to the possibility that you’re wrong, your plan has holes, or your thinking is flawed. Otherwise, you’re just having expensive arguments with yourself.
+
+Now go find out what you’re wrong about.
