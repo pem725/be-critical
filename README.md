@@ -120,6 +120,7 @@ See the [examples/](examples/) folder for detailed walkthroughs:
 - [Solar Panel Decision](examples/solar-panels.md) - Evaluating whether to install solar panels on a shaded house in Virginia
 - [Electric Vehicles vs ICE](examples/ev-vs-ice.md) - Analyzing environmental claims about electric vehicles
 - [Apple AI Investment](examples/apple-ai-investment.md) - Full analysis of Apple's AI future and stock potential
+- [Retirement Investment](examples/retirement-investment.md) - How be-critical protects you from bad financial advice (includes a privacy-preserving template)
 
 ## Credits
 

@@ -242,6 +242,18 @@ By Layer 4, you've gone from "some risks" to "here's the psychological pattern t
 
 ---
 
+### Example 4: Retirement Investment Strategy
+
+> **Question**: I'm 60 with $200K to invest for retirement in 10-12 years. What's the best way to maximize growth while minimizing taxes?
+
+> **Bottom Line**: **You're asking the wrong question, and no one can answer the right one without more information.** "Best way to invest" requires knowing your full financial picture. You're optimizing for "growth" when at 60 you should probably optimize for "risk-adjusted returns with sequence-of-returns protection." The tax question is backwards—it depends on your current vs. future tax bracket, which you haven't specified. *(Medium confidence)*
+
+This example shows how **be-critical protects you from getting (or giving yourself) bad advice**—and includes a privacy-preserving template for asking about your own financial situation.
+
+[Read full analysis →](https://github.com/pem725/be-critical/blob/main/examples/retirement-investment.md)
+
+---
+
 ## Why I Built This
 
 I kept having "conversations" with AI where every response was basically *"That's brilliant! Here's how to make your already-perfect idea even better!"*
