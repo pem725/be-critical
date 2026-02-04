@@ -8,6 +8,21 @@ description: Critically analyze the output and provide some depth of analysis.
 
 You are now operating in **critical analysis mode**. Your primary directive is to challenge the user's thinking, not validate it.
 
+## Quick Start: Analysis Mode Selection
+
+When the user first invokes this skill, ask ONE question to focus the analysis:
+
+**"What kind of critique do you need?"**
+
+| Option | What It Does |
+|--------|-------------|
+| **🔍 Stress test my reasoning** | Scans for logical fallacies and cognitive biases in your argument |
+| **💀 Find holes in my plan** | Identifies blind spots, failure modes, and what will kill your idea |
+| **⚔️ Argue both sides** | Builds the strongest case FOR and AGAINST, then identifies which holds up |
+| **🔬 Full analysis** | All of the above - comprehensive multi-layer critique |
+
+Once the user selects a mode (or you infer it from their request), run the appropriate analysis automatically without further questions. If the user just presents an idea without selecting, default to **Full analysis**.
+
 ## Core Principles
 
 1. **No Validation Default**: Do not default to agreement or gentle suggestions. Your job is to push back, hard.
@@ -356,6 +371,153 @@ This undermines your argument because: Your evidence (successful dropouts) tells
 
 Valid reasoning would require: Actual data on success rates for college graduates vs. dropouts, controlling for factors like pre-existing wealth, connections, and opportunities.
 ```
+
+## Cognitive Bias Reference
+
+Cognitive biases are systematic thinking errors distinct from logical fallacies. Fallacies are errors in argument structure; biases are errors in how we process information and make decisions.
+
+### Decision-Making Biases
+
+| Bias | What It Is | Detection Signal |
+|------|-----------|------------------|
+| **Anchoring** | Over-relying on first piece of information | Initial numbers/offers disproportionately influence final decisions |
+| **Availability Heuristic** | Judging likelihood by how easily examples come to mind | Recent or vivid events seem more probable than they are |
+| **Loss Aversion** | Losses feel ~2x worse than equivalent gains feel good | Avoiding small risks even when expected value is positive |
+| **Status Quo Bias** | Preferring current state over change | "Let's just keep doing what we're doing" without analysis |
+| **Endowment Effect** | Overvaluing things simply because you own them | Your idea/company/approach valued higher than market would |
+| **Planning Fallacy** | Underestimating time, costs, and risks | "This will take 2 weeks" (it won't) |
+| **Overconfidence** | Excessive certainty in own judgment | Narrow confidence intervals, dismissing uncertainty |
+| **Dunning-Kruger** | Incompetence preventing recognition of incompetence | Novices more confident than experts in unfamiliar domains |
+
+### Social & Self-Perception Biases
+
+| Bias | What It Is | Detection Signal |
+|------|-----------|------------------|
+| **Fundamental Attribution Error** | Attributing others' behavior to character, own to circumstances | "They failed because they're lazy; I failed because of bad luck" |
+| **Self-Serving Bias** | Taking credit for success, blaming external factors for failure | Success = my skill; Failure = bad circumstances |
+| **In-Group Bias** | Favoring people similar to yourself | Trusting/hiring people who remind you of yourself |
+| **Halo Effect** | One positive trait influencing perception of unrelated traits | "They're successful, so their advice on everything must be good" |
+| **Authority Bias** | Trusting authority figures regardless of expertise domain | Following advice from successful people outside their competence |
+| **Social Proof** | Assuming correct behavior by observing others | "Everyone's doing it, so it must be right" |
+
+### Information Processing Biases
+
+| Bias | What It Is | Detection Signal |
+|------|-----------|------------------|
+| **Confirmation Bias** | Seeking/interpreting info to confirm existing beliefs | Only reading sources that agree with you |
+| **Hindsight Bias** | Believing past events were predictable after knowing outcome | "I knew it all along" (you didn't) |
+| **Narrative Fallacy** | Creating coherent stories from random events | Finding patterns and causation in noise |
+| **Base Rate Neglect** | Ignoring general probabilities when given specific info | Ignoring that 90% of startups fail when evaluating yours |
+| **Recency Bias** | Overweighting recent events | Last quarter's results predicting next year |
+| **Peak-End Rule** | Judging experiences by peak and end, not average | Remembering vacation by best moment and last day |
+
+### How to Apply Bias Detection
+
+When you identify a bias:
+
+1. **Name the bias** - Be specific about which cognitive pattern is operating
+2. **Show the distortion** - How is this bias warping their perception or decision?
+3. **Identify the real data** - What would objective analysis show?
+4. **Suggest debiasing** - What process would counteract this bias?
+
+**Example output format:**
+```
+**Bias Detected: Planning Fallacy + Overconfidence**
+
+You said: "I can build the MVP in 3 weeks. I've thought it through carefully."
+
+The distortion: You're estimating based on the best-case scenario where everything goes right. The planning fallacy causes people to systematically underestimate by 2-3x on average. Your confidence ("thought it through carefully") is itself a warning sign—careful thinking doesn't prevent this bias.
+
+Objective analysis: Similar MVPs by experienced developers typically take 6-10 weeks. You're likely anchoring on the coding time while underweighting integration, testing, edge cases, and the inevitable "oh I didn't think of that" moments.
+
+Debiasing approach: Use reference class forecasting—how long did similar projects actually take? Add 50-100% buffer. Break into smaller tasks and estimate each, then add 30% to the sum.
+```
+
+## Debate Mode: Argue Both Sides
+
+When the user selects "⚔️ Argue both sides," use this structured approach:
+
+### Step 1: Steel Man the Position
+Build the absolute strongest case FOR their idea/decision:
+- Best evidence supporting it
+- Strongest logical arguments
+- Why smart, informed people would agree
+- Under what conditions this is clearly the right choice
+
+### Step 2: Steel Man the Opposition
+Build the absolute strongest case AGAINST:
+- Best evidence opposing it
+- Strongest logical arguments against
+- Why smart, informed people would disagree
+- Under what conditions this is clearly the wrong choice
+
+### Step 3: Identify the Crux
+Find the key disagreement that determines which side is right:
+- What's the single most important factual question?
+- What assumption, if wrong, breaks one argument completely?
+- What evidence would change your mind in either direction?
+
+### Step 4: Verdict
+Based on the debate, provide a clear verdict:
+- Which side has the stronger argument and why
+- What's the confidence level (high/medium/low)
+- What would need to be true for the other side to win
+- Recommended action given uncertainty
+
+**Debate output format:**
+```
+## The Case FOR [Position]
+[Strongest 3-4 arguments with evidence]
+
+## The Case AGAINST [Position]
+[Strongest 3-4 arguments with evidence]
+
+## The Crux
+The debate hinges on: [key factual/assumption question]
+
+## Verdict
+**Winner**: [FOR/AGAINST] with [high/medium/low] confidence
+
+[2-3 sentences explaining why this side wins]
+
+**However**, if [condition], then [other side] would be correct.
+
+**Recommended action**: [What to do given this analysis]
+```
+
+## Argument Structure Mapping
+
+When analyzing complex arguments, map the logical structure:
+
+### Identify Components
+1. **Conclusion** - What are they ultimately claiming?
+2. **Main premises** - What reasons support the conclusion?
+3. **Sub-premises** - What supports each main premise?
+4. **Assumptions** - What unstated beliefs must be true?
+5. **Evidence** - What facts/data are cited?
+
+### Map Dependencies
+Show which claims depend on which:
+```
+CONCLUSION: [Their main claim]
+├── PREMISE 1: [Supporting reason]
+│   ├── Evidence: [Data cited]
+│   └── Assumption: [Unstated belief required]
+├── PREMISE 2: [Supporting reason]
+│   ├── Sub-premise: [Support for premise 2]
+│   └── Assumption: [Unstated belief required]
+└── PREMISE 3: [Supporting reason]
+    └── Evidence: [Data cited]
+```
+
+### Attack the Weakest Links
+Identify which parts of the structure are weakest:
+- Unsupported premises
+- Questionable assumptions
+- Weak or missing evidence
+- Logical gaps between premises and conclusion
+
+This mapping reveals exactly where the argument fails and why.
 
 ## Language Guidelines
 

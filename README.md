@@ -13,7 +13,6 @@ This skill forces Claude to do the opposite: build strong counterarguments, iden
 Copy this skill to your Claude Code skills directory:
 
 ```bash
-# Clone to your skills directory
 git clone https://github.com/pem725/be-critical.git ~/.claude/skills/be-critical
 ```
 
@@ -25,19 +24,39 @@ Invoke the skill in Claude Code:
 /be-critical
 ```
 
-Then present your idea, decision, or belief. Claude will apply sequential analysis techniques to challenge your thinking.
+Claude will ask one question to focus the analysis:
 
-## How It Works
+| Mode | What It Does |
+|------|-------------|
+| 🔍 **Stress test my reasoning** | Scans for logical fallacies and cognitive biases |
+| 💀 **Find holes in my plan** | Identifies blind spots, failure modes, and what will kill your idea |
+| ⚔️ **Argue both sides** | Builds strongest case FOR and AGAINST, then identifies which holds up |
+| 🔬 **Full analysis** | All of the above |
 
-The skill implements a **Sequential Analysis Protocol**:
+Then present your idea. Analysis runs automatically.
 
-1. **Classify** your query (Early Stage Idea, Confident Decision, Resource Commitment, etc.)
-2. **Select** a technique sequence (3-5 layers based on stakes)
-3. **Apply** each technique sequentially, building on previous insights
-4. **Synthesize** findings into actionable critique
-5. **Create** a shareable summary with risk levels and next steps
+## What It Detects
 
-## Techniques
+### Logical Fallacies (40+)
+
+| Category | Examples |
+|----------|----------|
+| Relevance | Ad Hominem, Appeal to Authority, Red Herring, Tu Quoque |
+| Presumption | False Dilemma, Begging the Question, Slippery Slope, No True Scotsman |
+| Causal | Post Hoc, Correlation ≠ Causation, Reverse Causation |
+| Generalization | Hasty Generalization, Cherry Picking, Survivorship Bias |
+| Structural | Straw Man, False Equivalence, Equivocation |
+| Psychological | Sunk Cost, Bandwagon, Appeal to Ignorance |
+
+### Cognitive Biases (20+)
+
+| Category | Examples |
+|----------|----------|
+| Decision-Making | Anchoring, Loss Aversion, Planning Fallacy, Overconfidence |
+| Social/Self-Perception | Fundamental Attribution Error, Halo Effect, Authority Bias |
+| Information Processing | Confirmation Bias, Hindsight Bias, Base Rate Neglect |
+
+## Analysis Techniques
 
 | Technique | What It Does |
 |-----------|--------------|
@@ -47,26 +66,36 @@ The skill implements a **Sequential Analysis Protocol**:
 | Reality Check | Calls out rationalizations like a friend who won't let you lie to yourself |
 | Premortem | Works backwards from failure to identify what will kill your idea |
 | Red Team Exercise | Systematic attack across technical, market, human, financial, and timing dimensions |
-| Confirmation Bias Detector | Identifies what you want to believe and what you're avoiding |
-| Multi-Perspective Critic | Evaluates from Skeptical Expert, Person Who Loses, and Future Self viewpoints |
-| Competitive Threat | Role-plays a capable competitor trying to destroy your approach |
-| Opportunity Cost Analyzer | Forces consideration of what you're giving up |
-| Logical Fallacy Detector | Scans arguments for 40+ named reasoning errors across 6 categories |
+| Logical Fallacy Detector | Names specific reasoning errors and shows why they invalidate the argument |
+| Cognitive Bias Detector | Identifies systematic thinking errors distorting perception |
+| Debate Mode | Argues both sides, finds the crux, delivers a verdict |
+| Argument Mapper | Visualizes premise→conclusion structure and attacks weakest links |
 
-## Example
+## Example: Debate Mode
 
-**You:** I'm planning to quit my job and go full-time on my side project that's making $2K/month.
+**You:** Should I pivot from B2B to B2C?
 
-**Claude (with be-critical):**
+**Claude:**
 
-> ## Layer 1: Blind Spot Finder
-> You're assuming $2K/month validates full-time viability. It doesn't. Side project revenue with job security is fundamentally different from sole-income revenue under financial pressure...
+> ## The Case FOR Pivoting to B2C
+> - Larger addressable market (100x potential customers)
+> - Faster feedback loops for product iteration
+> - Brand building creates long-term moat
 >
-> ## Layer 2: Premortem
-> It's 8 months from now. You're back job hunting. Here's what happened: Month 3, revenue plateaued because you optimized for building instead of sales...
+> ## The Case AGAINST Pivoting to B2C
+> - Customer acquisition costs 5-10x higher
+> - Your team has zero consumer marketing experience
+> - B2B revenue is predictable; B2C is volatile
 >
-> ## Critical Synthesis
-> You're not ready. Your runway math assumes linear growth, but you have zero evidence your side project scales with more time. You're trading guaranteed income for the feeling of being a founder.
+> ## The Crux
+> The debate hinges on: Can you acquire B2C customers profitably before runway ends?
+>
+> ## Verdict
+> **Winner**: AGAINST with high confidence
+>
+> Your current B2B traction is real. Pivoting throws away validated demand to chase a market where you have no competitive advantage and no relevant experience.
+>
+> **However**, if you've found a B2C distribution channel with <$5 CAC, then FOR would be correct.
 
 ## The Discomfort Test
 
