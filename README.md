@@ -101,6 +101,17 @@ Then present your idea. Analysis runs automatically.
 
 If reading Claude's response doesn't make you uncomfortable, the analysis wasn't critical enough. Real critique should make you feel defensive—that's how you know it hit actual blind spots.
 
+## Examples
+
+See the [examples/](examples/) folder for detailed walkthroughs:
+
+- [Solar Panel Decision](examples/solar-panels.md) - Evaluating whether to install solar panels on a shaded house in Virginia
+- [Electric Vehicles vs ICE](examples/ev-vs-ice.md) - Analyzing environmental claims about electric vehicles
+
+## Credits
+
+The adversarial prompting techniques in this skill were inspired by [AI Prompt Hackers](https://www.aiprompthackers.com/p/10-prompts-that-force-ai-to-challenge) and their excellent article "10 Prompts That Force AI to Challenge Your Thinking."
+
 ## License
 
 MIT
