@@ -46,81 +46,55 @@ This skill forces Claude to do the opposite:
 
 <h2 id="installation">Installation Guide</h2>
 
-### What You Need First
+### Method 1: Claude.ai Settings (Easiest)
 
-Before installing this skill, you need **Claude Code** installed on your computer. Claude Code is Anthropic's command-line interface for Claude.
+The simplest way to install this skill is through the Claude.ai web interface:
 
-#### Step 1: Install Claude Code (if you haven't already)
+1. Go to [claude.ai/settings/capabilities](https://claude.ai/settings/capabilities)
+2. Scroll to the **Skills** section
+3. Click **Add Skill** or **Upload Skill**
+4. Upload the `Skill.md` file from this repository
+   - [Download Skill.md directly](https://raw.githubusercontent.com/pem725/be-critical/main/Skill.md)
+   - Or download [be-critical-v0.2.zip](https://github.com/pem725/be-critical/releases/tag/v0.2) and extract `Skill.md`
+5. The skill is now available in your Claude conversations
 
-**On Mac or Linux**, open Terminal and run:
+**Using it:** Just type `/be-critical` in any Claude conversation and the skill will activate.
+
+---
+
+### Method 2: Claude Code CLI
+
+If you use Claude Code (Anthropic's command-line interface), you can install the skill locally:
+
+#### Prerequisites
+
+You need Claude Code installed. If you don't have it:
 
 ```bash
 npm install -g @anthropic-ai/claude-code
 ```
 
-**On Windows**, open PowerShell or Command Prompt and run the same command.
+> **Don't have npm?** Download Node.js from [nodejs.org](https://nodejs.org/) first.
 
-> **Don't have npm?** You need Node.js first. Download it from [nodejs.org](https://nodejs.org/) (choose the LTS version), install it, then run the command above.
-
-#### Step 2: Verify Claude Code is working
-
-Run this command to make sure Claude Code is installed:
-
-```bash
-claude --version
-```
-
-You should see a version number. If you get an error, revisit Step 1.
-
-#### Step 3: Create the skills folder (if it doesn't exist)
-
-Claude Code looks for skills in a specific folder. Create it if needed:
+#### Install the Skill
 
 **On Mac/Linux:**
 ```bash
 mkdir -p ~/.claude/skills
-```
-
-**On Windows (PowerShell):**
-```powershell
-New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.claude\skills"
-```
-
-#### Step 4: Install the be-critical skill
-
-Now download and install the skill:
-
-**On Mac/Linux:**
-```bash
 cd ~/.claude/skills
 git clone https://github.com/pem725/be-critical.git
 ```
 
 **On Windows (PowerShell):**
 ```powershell
+New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.claude\skills"
 cd "$env:USERPROFILE\.claude\skills"
 git clone https://github.com/pem725/be-critical.git
 ```
 
-> **Don't have git?** Download it from [git-scm.com](https://git-scm.com/downloads) and install it, then run the command above.
+> **Don't have git?** Download from [git-scm.com](https://git-scm.com/downloads)
 
-#### Step 5: Verify installation
-
-Check that the skill folder exists:
-
-**On Mac/Linux:**
-```bash
-ls ~/.claude/skills/be-critical
-```
-
-**On Windows (PowerShell):**
-```powershell
-dir "$env:USERPROFILE\.claude\skills\be-critical"
-```
-
-You should see files like `Skill.md`, `README.md`, etc.
-
-### Using the Skill
+#### Using the Skill
 
 1. Start Claude Code by running `claude` in your terminal
 2. Type `/be-critical` and press Enter
@@ -128,26 +102,30 @@ You should see files like `Skill.md`, `README.md`, etc.
 4. Present your idea, decision, or question
 5. Get challenged!
 
-### Alternative: Manual Download
+---
+
+### Method 3: Manual Download
 
 If you prefer not to use git:
 
 1. Go to the [Releases page](https://github.com/pem725/be-critical/releases)
 2. Download `be-critical-v0.2.zip`
 3. Extract the zip file
-4. Move the extracted folder to:
-   - Mac/Linux: `~/.claude/skills/be-critical`
-   - Windows: `C:\Users\YourName\.claude\skills\be-critical`
+4. Either:
+   - **For Claude.ai:** Upload `Skill.md` at [claude.ai/settings/capabilities](https://claude.ai/settings/capabilities)
+   - **For Claude Code:** Move the folder to `~/.claude/skills/be-critical`
+
+---
 
 ### Troubleshooting
 
 | Problem | Solution |
 |---------|----------|
-| "command not found: claude" | Claude Code isn't installed. Follow Step 1. |
+| Skill doesn't appear in Claude.ai | Refresh the page after uploading |
+| "command not found: claude" | Claude Code isn't installed. Run `npm install -g @anthropic-ai/claude-code` |
 | "command not found: git" | Git isn't installed. Download from [git-scm.com](https://git-scm.com/downloads) |
 | "command not found: npm" | Node.js isn't installed. Download from [nodejs.org](https://nodejs.org/) |
-| Skill doesn't appear | Make sure the folder is named exactly `be-critical` inside `~/.claude/skills/` |
-| "/be-critical" not recognized | Restart Claude Code after installing the skill |
+| "/be-critical" not recognized in Claude Code | Restart Claude Code after installing the skill |
 
 ---
 
