@@ -1,12 +1,16 @@
 # Example: Should I Install Solar Panels?
 
-## The Question
+---
 
-> "Should I get solar panels installed on my house in Virginia in February 2026? My house is shaded a bit. What are the benefits for and against?"
+## BLUF (Bottom Line Up Front)
 
-## Analysis Mode Selected: ⚔️ Argue Both Sides
+**Question**: Should I get solar panels installed on my house in Virginia in February 2026? My house is shaded a bit.
+
+**Bottom Line**: **Don't proceed yet.** Get a professional shade analysis first. The phrase "shaded a bit" is too vague to commit $15,000+. If shade reduces production by more than 20%, the financial case collapses. Get data before deciding. *(Medium confidence)*
 
 ---
+
+## Analysis Mode Selected: ⚔️ Argue Both Sides
 
 ## The Case FOR Installing Solar Panels
 

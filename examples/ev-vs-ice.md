@@ -1,12 +1,16 @@
 # Example: Are Electric Vehicles Really Environmentally Friendly?
 
-## The Question
+---
 
-> "Are electric vehicles really environmentally friendly compared to internal combustion or hybrid vehicles? Consider both sides."
+## BLUF (Bottom Line Up Front)
 
-## Analysis Mode Selected: ⚔️ Argue Both Sides + 🔍 Stress Test Reasoning
+**Question**: Are electric vehicles really environmentally friendly compared to internal combustion or hybrid vehicles?
+
+**Bottom Line**: **Yes, but it's overstated.** EVs produce 50-70% fewer lifetime emissions than average ICE vehicles—the data is robust. However, the advantage shrinks significantly when compared to efficient hybrids, depends heavily on your regional grid mix, and ignores mining externalities. The "EVs will save the planet" narrative is marketing; the reality is "EVs are generally better, with important caveats." *(Medium-high confidence)*
 
 ---
+
+## Analysis Mode Selected: ⚔️ Argue Both Sides + 🔍 Stress Test Reasoning
 
 ## The Case FOR EVs Being Environmentally Superior
 

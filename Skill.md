@@ -187,7 +187,14 @@ After completing your analysis and synthesis, create a shareable table artifact 
 ```markdown
 # Critical Analysis Summary
 
-**Decision/Query**: [Brief statement of what was analyzed]
+## BLUF (Bottom Line Up Front)
+
+**Question**: [The exact question or decision being analyzed]
+
+**Bottom Line**: [1-2 sentence definitive answer - don't hedge. State the verdict clearly: proceed/don't proceed/proceed with conditions. Include confidence level.]
+
+---
+
 **Analysis Date**: [Current date]
 **Query Type**: [Classification from Step 1]
 **Techniques Applied**: [List the sequence used]
