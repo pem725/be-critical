@@ -14,9 +14,9 @@ This skill forces Claude to do the opposite: build strong counterarguments, iden
 
 ### Easiest: Claude.ai Settings
 
-1. Go to [claude.ai/settings/capabilities](https://claude.ai/settings/capabilities)
-2. Click **Add Skill** in the Skills section
-3. Upload [`Skill.md`](https://raw.githubusercontent.com/pem725/be-critical/main/Skill.md) from this repo
+1. Download [be-critical-v0.2.zip](https://github.com/pem725/be-critical/releases/download/v0.2/be-critical-v0.2.zip)
+2. Go to [claude.ai/settings/capabilities](https://claude.ai/settings/capabilities)
+3. Drag and drop the zip file onto the page, or click **Add Skill** and select it
 4. Done! Type `/be-critical` in any conversation.
 
 ### Alternative: Claude Code CLI

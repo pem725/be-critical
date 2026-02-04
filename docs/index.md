@@ -50,12 +50,12 @@ This skill forces Claude to do the opposite:
 
 The simplest way to install this skill is through the Claude.ai web interface:
 
-1. Go to [claude.ai/settings/capabilities](https://claude.ai/settings/capabilities)
-2. Scroll to the **Skills** section
-3. Click **Add Skill** or **Upload Skill**
-4. Upload the `Skill.md` file from this repository
-   - [Download Skill.md directly](https://raw.githubusercontent.com/pem725/be-critical/main/Skill.md)
-   - Or download [be-critical-v0.2.zip](https://github.com/pem725/be-critical/releases/tag/v0.2) and extract `Skill.md`
+1. Download [be-critical-v0.2.zip](https://github.com/pem725/be-critical/releases/download/v0.2/be-critical-v0.2.zip)
+2. Go to [claude.ai/settings/capabilities](https://claude.ai/settings/capabilities)
+3. Scroll to the **Skills** section
+4. Either:
+   - Click **Add Skill** and select the zip file, or
+   - **Drag and drop** the zip file directly onto the page
 5. The skill is now available in your Claude conversations
 
 **Using it:** Just type `/be-critical` in any Claude conversation and the skill will activate.
