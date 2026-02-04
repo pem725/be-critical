@@ -135,6 +135,14 @@ By Layer 4, you've gone from "some risks" to "here's the psychological pattern t
 
 [Read full analysis →](https://github.com/pem725/be-critical/blob/main/examples/ev-vs-ice.md)
 
+### Example 3: Apple AI Investment
+
+> **Question**: Will Apple successfully innovate and integrate AI into their products for another market run? Are they a good stock market bet?
+
+> **Bottom Line**: **Probably yes on AI, but you're asking the wrong question.** Apple will integrate AI competently—they always do—but "successful market run" conflates product execution with stock returns. You're not betting on Apple's AI capability; you're betting the market is underestimating them. That's a harder case to make at a $3T+ valuation. *(Medium confidence)*
+
+[Read full analysis →](https://github.com/pem725/be-critical/blob/main/examples/apple-ai-investment.md)
+
 ---
 
 ## Installation
