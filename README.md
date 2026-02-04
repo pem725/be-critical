@@ -1,5 +1,7 @@
 # be-critical
 
+**[View Documentation Site](https://pem725.github.io/be-critical/)**
+
 A Claude Code skill that transforms Claude from a validation-oriented assistant into an adversarial critic. When invoked, Claude applies structured multi-layer analysis to challenge your thinking, surface blind spots, and expose flawed reasoning.
 
 ## Why This Exists
