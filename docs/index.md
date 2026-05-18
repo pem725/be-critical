@@ -10,6 +10,7 @@ description: A Claude Code skill that transforms AI from yes-man to adversarial 
   <a href="#installation">Installation</a> ·
   <a href="#how-it-works">How It Works</a> ·
   <a href="#what-it-detects">Detection</a> ·
+  <a href="#manuscript-review">Manuscript Review</a> ·
   <a href="#examples">Examples</a> ·
   <a href="#credits">Credits</a>
 </nav>
@@ -210,6 +211,38 @@ By Layer 4, you've gone from "some risks" to "here's the psychological pattern t
 
 ---
 
+<h2 id="manuscript-review">Two-Stage Manuscript Review Protocol</h2>
+
+For peer review of academic manuscripts, `be-critical` runs a specialized two-stage workflow defined in [`manuscript_review_protocol.md`](https://github.com/pem725/be-critical/blob/main/manuscript_review_protocol.md).
+
+### Pre-flight: Journal Quality Assessment
+
+Before reviewing, the protocol characterizes the target venue — tier, indexing, audience, typical methodological standard. **Critique severity is calibrated to the journal's published bar, not to top general-science venues.** A solid mid-tier specialty journal does not need to clear a Nature standard.
+
+### Stage 1 — Summary, Logic Model, Questions
+
+Read the paper, then produce a single markdown artifact containing:
+
+- Plain-language summary of the contribution
+- Verbatim research questions and hypotheses
+- A **Mermaid logic model** showing theory → predictions → design → measures → analysis → findings → claims, with explicit "inferential leap" branches where the chain skips a step
+- **Evidence map** — each claim mapped to the evidence cited and a strength rating
+- **5–10 categorized provocations** organized as logical / evidential / framing / structural problems
+- **3–6 targeted questions** for the human reviewer (verdict instinct, severity dials, field-specific calls Claude cannot make)
+
+The protocol then **stops** and waits for the reviewer's answers. Stage 1 is neutral-to-mildly-skeptical inventory, not a verdict.
+
+### Stage 2 — Review in the Reviewer's Voice
+
+Using the reviewer's answers to calibrate severity and priority, produce a review in a two-letter format:
+
+- **To Editor:** short — compresses the paper's contribution into two sentences, conveys the recommendation through tone, flags reviewer calibration if needed
+- **To Authors:** opens with what is genuinely strong, then organizes critique under 3–5 named-header sections with numbered points (location pointer + why it matters + recommended literature where useful), closes constructively
+
+See the [worked example](https://github.com/pem725/be-critical/blob/main/examples/manuscript-review-stage2.md) for the format applied to a real review (redacted for peer-review confidentiality).
+
+---
+
 <h2 id="examples">Examples</h2>
 
 ### Example 1: Solar Panel Decision
@@ -283,6 +316,7 @@ MIT
   <a href="#installation">Installation</a> ·
   <a href="#how-it-works">How It Works</a> ·
   <a href="#what-it-detects">Detection</a> ·
+  <a href="#manuscript-review">Manuscript Review</a> ·
   <a href="#examples">Examples</a> ·
   <a href="#credits">Credits</a>
   <br><br>
