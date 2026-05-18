@@ -83,6 +83,28 @@ Then present your idea. Analysis runs automatically.
 | Debate Mode | Argues both sides, finds the crux, delivers a verdict |
 | Argument Mapper | Visualizes premise→conclusion structure and attacks weakest links |
 
+## Two-Stage Manuscript Review Protocol
+
+For peer review of academic manuscripts, `be-critical` runs a specialized two-stage workflow defined in [`manuscript_review_protocol.md`](manuscript_review_protocol.md).
+
+**Pre-flight** — Assess the target journal (tier, indexing, audience, typical methodological standard). Critique severity is calibrated to the journal's published bar, not to top general-science venues.
+
+**Stage 1 — Summary, Logic Model, Questions.** Read the paper, then produce a single markdown artifact containing:
+- Plain-language summary of the contribution
+- Verbatim research questions / hypotheses
+- A Mermaid logic model showing theory → predictions → design → measures → analysis → findings → claims, with explicit "inferential leap" branches where the chain skips a step
+- Evidence map (claim → evidence cited → strength)
+- 5–10 categorized provocations (logical / evidential / framing / structural)
+- 3–6 targeted questions for the human reviewer (verdict instinct, severity dials, field-specific calls)
+
+The protocol then **stops** and waits for the reviewer's answers. The Stage 1 artifact is neutral-to-mildly-skeptical inventory, not a verdict.
+
+**Stage 2 — Review in the reviewer's voice.** Using the reviewer's answers to calibrate severity and priority, produce a review in two-letter format:
+- *To Editor:* short, compresses the paper's contribution into two sentences, conveys recommendation through tone, flags reviewer calibration if needed
+- *To Authors:* opens with what's genuinely strong, then 3–5 named-header sections with numbered points (location pointer + why it matters + recommended literature where useful), closes constructively
+
+See [`examples/manuscript-review-stage2.md`](examples/manuscript-review-stage2.md) for a worked example.
+
 ## Example: Debate Mode
 
 **You:** Should I pivot from B2B to B2C?
