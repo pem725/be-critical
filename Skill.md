@@ -94,6 +94,7 @@ First, identify what type of decision/idea this is:
 - **Competitive Situation**: Involves market/competitors
 - **Personal Rationalization**: User is justifying something to themselves
 - **Logical Argument**: User presents reasoning or evidence to support a conclusion
+- **Academic Manuscript**: User presents a research paper, theoretical framework, or scholarly argument for review
 
 ### Step 2: Select Your Sequence
 
@@ -145,6 +146,17 @@ Apply techniques in series based on query type:
 2. Steelman Opposition → Build the strongest counterargument
 3. Blind Spot Finder → What evidence are they ignoring?
 4. Socratic Interrogation → Force them to defend each logical step
+
+**For Academic Manuscripts:**
+
+When the user hands over a paper PDF (or asks for a peer review), follow the **Two-Stage Manuscript Review Protocol** in `manuscript_review_protocol.md`. The protocol assesses the target journal first (so critique severity is venue-calibrated, not pegged to top general-science journals), then produces a Stage 1 summary + logic model + targeted questions for the human reviewer, pauses for the user's answers, and produces a Stage 2 review in the user's two-letter voice (To Editor + To Authors). Do not skip Stage 1 even if the paper looks straightforward.
+
+Within each stage, apply the techniques below to drive the analysis:
+1. Manuscript Reviewer → Falsifiability, argument chain breaks, evidence gaps, missing literatures
+2. Critique Taxonomy → Separate logical, evidential, framing, and structural problems
+3. Steelman Opposition → Build the strongest case a reviewer would make against the framework
+4. Blind Spot Finder (with Survivorship Bias check) → Unstated assumptions, denominator problems in anecdotes
+5. Confirmation Bias Detector → Selective citation, self-citation scaffolding, stacked citations without differentiation
 
 ### Step 3: Apply Each Technique Sequentially
 
@@ -278,6 +290,26 @@ That's the power of sequential analysis.
 **Opportunity Cost Analyzer**: Focus exclusively on what they're NOT doing by making this choice. What opportunities close off, what skills atrophy, what if it takes 2X longer, what would they do with same resources elsewhere, and 5-year regret potential.
 
 **Logical Fallacy Detector**: Systematically scan the user's argument for flawed reasoning patterns. Identify and name specific fallacies, explain why the reasoning is invalid, and show how it undermines their conclusion. Don't just list fallacies found—explain the damage each one does to their argument.
+
+**Manuscript Reviewer**: Review the manuscript as a tough-but-fair Reviewer 2 for the target journal. Focus on: (1) Is the central construct or model falsifiable? What outcome would count as evidence against it? (2) Where does the argument chain break — where are leaps asserted rather than argued? (3) Which claims rest on single studies, the authors' own prior work, or stacked citations that don't individually support the point? (4) What literatures are conspicuously absent that a specialist reviewer would notice? (5) Where do sections read as standalone essays rather than building blocks in a coherent argument? Name each problem, say why it matters for the paper's reception, and specify what would fix it.
+
+**Critique Taxonomy**: When analyzing academic manuscripts, separate findings into four distinct categories. This prevents mixing different types of problems and produces more organized, actionable output:
+
+- **Logical problems**: Unfalsifiability, tautological definitions, circular reasoning, propositions too vague to test, internal contradictions between sections
+- **Evidential problems**: Claims resting on single studies, heavy self-citation scaffolding, stacked citations without differentiation, correlational designs cited for causal claims, review/meta-analysis cited for a specific empirical finding
+- **Framing problems**: Metaphors doing the work of theories, selective citation loops (citing evidence that supports the framework while ignoring contradictions), survivorship bias in anecdote selection, denominator problems (vivid successes without base rate of failures)
+- **Structural problems**: Sections that read as standalone essays disconnected from the organizing framework, missing transitions, framework introduced and then abandoned until the Discussion, testable propositions never revisited, scope too broad for depth achieved
+
+## Survivorship Bias Check (Enhancement to Blind Spot Finder)
+
+When applying the Blind Spot Finder to any argument that uses vivid examples, anecdotes, or case studies, add this specific check:
+
+1. **Identify the vivid examples**: What successes or dramatic cases are presented as evidence?
+2. **Ask about the denominator**: How many similar cases led to nothing? What is the base rate of failure for this type of action?
+3. **Check for selection on the dependent variable**: Are examples selected because they had a good outcome, then used to argue that the process produces good outcomes?
+4. **Flag narrative attribution**: When a complex outcome (creative breakthrough, career success, scientific discovery) is attributed to a single cause (curiosity, persistence, risk-taking), ask what other factors were present.
+
+**Example:** "Fleming's curiosity led to penicillin" is a vivid success story. But how many curious scientists examined contaminated petri dishes and found nothing? The denominator is invisible. The anecdote tells us nothing about whether curiosity increases the probability of discovery — only that curiosity was present in one famous case.
 
 ## Logical Fallacy Reference
 
