@@ -21,7 +21,7 @@ description: A Claude Code skill that transforms AI from yes-man to adversarial 
 
 A Claude Code skill that transforms Claude from a validation-oriented assistant into an adversarial critic. When invoked, it applies structured multi-layer analysis to challenge your thinking, surface blind spots, and expose flawed reasoning.
 
-[View on GitHub](https://github.com/pem725/be-critical) | [Download v0.2](https://github.com/pem725/be-critical/releases/tag/v0.2)
+[View on GitHub](https://github.com/pem725/be-critical) | [Download v0.3](https://github.com/pem725/be-critical/releases/tag/v0.3)
 
 ---
 
@@ -51,7 +51,7 @@ This skill forces Claude to do the opposite:
 
 The simplest way to install this skill is through the Claude.ai web interface:
 
-1. Download [be-critical-v0.2.zip](https://github.com/pem725/be-critical/releases/download/v0.2/be-critical-v0.2.zip)
+1. Download [be-critical-v0.3.zip](https://github.com/pem725/be-critical/releases/download/v0.3/be-critical-v0.3.zip)
 2. Go to [claude.ai/settings/capabilities](https://claude.ai/settings/capabilities)
 3. Scroll to the **Skills** section
 4. Either:
@@ -110,7 +110,7 @@ git clone https://github.com/pem725/be-critical.git
 If you prefer not to use git:
 
 1. Go to the [Releases page](https://github.com/pem725/be-critical/releases)
-2. Download `be-critical-v0.2.zip`
+2. Download `be-critical-v0.3.zip`
 3. Extract the zip file
 4. Either:
    - **For Claude.ai:** Upload `Skill.md` at [claude.ai/settings/capabilities](https://claude.ai/settings/capabilities)

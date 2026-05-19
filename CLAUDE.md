@@ -63,6 +63,9 @@ Organized into 3 categories:
 | Cognitive Bias Detector | Identify systematic thinking errors |
 | Debate Mode | Argue both sides, find crux, deliver verdict |
 | Argument Mapper | Visualize premise→conclusion structure |
+| Manuscript Reviewer | Academic paper review as tough-but-fair R2 |
+| Critique Taxonomy | Separate logical/evidential/framing/structural problems |
+| Survivorship Bias Check | Denominator analysis for vivid examples and anecdotes |
 
 ## Key Behavioral Constraints
 
